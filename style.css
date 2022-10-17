@@ -7,15 +7,13 @@
     width: 100%;
     display: flex;
     align-items: center;
-
-
 }
+
 
 .header_logo {
     width: 7%;
     padding: 2rem;
     background-color: rgb(12, 76, 160);
-    /* display: inline-flex; */
 }
 
 .buttons {
@@ -25,6 +23,10 @@
     padding-right: 1rem;
     color: rgb(0, 128, 255);
     background-color: rgb(12, 76, 160);
+}
+
+.button:hover {
+    color: rgb(255, 181, 0);
 }
 
 .buttons li {
@@ -40,6 +42,7 @@
     margin: 0.55rem 0 0.3rem 0;
     background-color: rgb(67, 140, 235);
 }
+
 
 .formDiv {
     padding: 2rem 0 2rem 2rem;
@@ -66,4 +69,10 @@ input {
     height: 3.5rem;
     font-size: 1.4rem;
     margin: 1rem 0 0 0;
+}
+
+.submitButton:hover {
+    border: 1px solid rgb(0, 128, 255);
+    background-color: rgb(255, 181, 0);
+    color: rgb(12, 76, 160);
 }
