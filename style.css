@@ -45,15 +45,15 @@
     padding: 2rem 0 2rem 2rem;
     display: flex;
     height: 100%;
-    width: 100%;
+    width: 10%;
+    margin: 1rem;
 }
 
-.form {
-    margin: auto;
-}
 
-label {
-    padding-left: 1rem;
+label,
+select,
+input {
+    padding: 1rem 0 1rem 0;
 }
 
 .submitButton {
@@ -65,9 +65,5 @@ label {
     width: 7rem;
     height: 3.5rem;
     font-size: 1.4rem;
-}
-
-footer {
-    display: flex;
-    justify-content: flex-end;
+    margin: 1rem 0 0 0;
 }
