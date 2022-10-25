@@ -31,7 +31,18 @@
         </div>
     </nav>
    
-    <div class="container"></div>
+    <div class="container">
+    <div class="formDiv">
+        <form class="form" action="index.html">
+            <input type="text" placeholder="Vardas">
+            <input type="text" placeholder="Pavarde">
+            <input type="text" placeholder="El. paštas">
+            <input type="text" placeholder="Telefono numeris">
+            <input type="text" placeholder="Adresas">
+            <input class="submitButton" type="Išsaugoti">
+        </form>
+    </div>
+    </div>
     <div class="lightblue3"></div>
     <div class="lightblue2"></div>
     <div class="lightblue"></div>
@@ -41,3 +52,4 @@
 </body>
 
 </html>
+

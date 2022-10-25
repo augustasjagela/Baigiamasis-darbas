@@ -1,11 +1,13 @@
-/* * {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-} */
+}
 
 body {
-    background-color: rgb(255, 220, 132);
+    background-color: rgb(210, 222, 238);
+    width: 100vw;
+    height: 100vh;
 }
 
 .bluenav {
@@ -48,8 +50,19 @@ body {
 .lightblue {
     width: 100%;
     height: 12px;
-    margin: 0.55rem 0 0.3rem 0;
     background-color: rgb(67, 140, 235);
+}
+
+.lightblue2 {
+    width: 100%;
+    height: 12px;
+    background-color: rgb(106, 163, 236);
+}
+
+.lightblue3 {
+    width: 100%;
+    height: 12px;
+    background-color: rgb(154, 190, 237);
 }
 
 
@@ -57,8 +70,10 @@ body {
     padding: 2rem 0 2rem 2rem;
     display: flex;
     height: 100%;
-    width: 10%;
+    width: 90%;
     margin: 1rem;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -66,6 +81,7 @@ label,
 select,
 input {
     padding: 1rem 0 1rem 0;
+    justify-content: space-evenly;
 }
 
 .submitButton {
@@ -87,8 +103,20 @@ input {
 }
 
 .container {
-    width: 14rem;
-    height: 30rem;
+    width: 100%;
+    height: 60%;
     /* background-color: rgb(255, 220, 132); */
-    background-color: black;
+    background-color: rgb(210, 222, 238);
+}
+
+footer {
+    width: 100%;
+    height: 7%;
+    background-color: rgb(12, 76, 160);
+    padding: 4rem;
+}
+
+p {
+    color: rgb(67, 140, 235);
+    font-family: 'Fjalla One', sans-serif;
 }
